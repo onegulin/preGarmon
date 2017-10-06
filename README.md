@@ -16,7 +16,7 @@
 - fletcher16 (https://en.wikipedia.org/wiki/Fletcher's_checksum)
 - Manchester coding (http://www.atmel.com/images/atmel-9164-manchester-coding-basics_application-note.pdf)
 
-###Passwords
+### Passwords
 - WiFi       ssid/password
 - thingspeak server/post.apikey
 - MQTT       server/port/user/password
