@@ -1,9 +1,11 @@
+
+
 #include <ESP8266WiFi.h>
 #include <Manchester.h>
-#include <PubSubClient.h>
+#include "PubSubClient.h"
 
 #define DO_WIFI         1
-#define POST_THINGSPEAK 1
+#define POST_THINGSPEAK 0
 #define POST_MQTT       1
 #define DEBUG           0
 
@@ -35,17 +37,17 @@
 #endif
 
 /* ------------------------------------------------------ */
-const char* ssid = "XXX";
-const char* password = "XXX";
+const char* ssid = "HEBOd";
+const char* password = "KonnayaMilicia";
 
 //const char* server = "api.thingspeak.com";
 const char* server = "184.106.153.149";
-const String apiKey = "XXX";
+const String apiKey = "5GM25F2MK08PVMFW";
  
-const char *mqtt_server = "XXX.com";
-const int  mqtt_port = 123;
-const char *mqtt_user = "XXX";
-const char *mqtt_pass = "XXX";
+const char *mqtt_server = "192.168.3.122";
+const int  mqtt_port = 1883;
+const char *mqtt_user = "vlbl";
+const char *mqtt_pass = "vlblvlbl";
 
 /* ------------------------------------------------------ */
 #if DO_WIFI
