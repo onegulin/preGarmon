@@ -46,8 +46,8 @@ const String apiKey = "5GM25F2MK08PVMFW";
  
 const char *mqtt_server = "192.168.3.122";
 const int  mqtt_port = 1883;
-const char *mqtt_user = "vlbl";
-const char *mqtt_pass = "vlblvlbl";
+const char *mqtt_user = "XXX";
+const char *mqtt_pass = "XXX";
 
 /* ------------------------------------------------------ */
 #if DO_WIFI
